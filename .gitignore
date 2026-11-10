@@ -16,9 +16,7 @@ env/
 /data/
 
 # Model checkpoints and weights
-/models/
 *.pt
-*.pth
 *.onnx
 
 # Experiment outputs
