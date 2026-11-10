@@ -1,0 +1,30 @@
+{
+    "model": "CustomResidualCNN",
+    "experiment": "Data Augmentation",
+    "device": "cuda",
+    "epochs_completed": 15,
+    "best_epoch": 13,
+    "best_validation_accuracy": 0.8626,
+    "total_training_time_seconds": 747.8819155693054,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "optimizer": "AdamW",
+    "loss_function": "CrossEntropyLoss",
+    "random_seed": 42,
+    "data_augmentation": true,
+    "augmentation_techniques": [
+        "RandomCrop(size=32, padding=4)",
+        "RandomHorizontalFlip(p=0.5)"
+    ],
+    "normalisation_mean": [
+        0.4910959005355835,
+        0.48214635252952576,
+        0.44657397270202637
+    ],
+    "normalisation_std": [
+        0.24700748920440674,
+        0.24354411661624908,
+        0.2616426646709442
+    ]
+}
