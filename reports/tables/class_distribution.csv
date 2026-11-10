@@ -1,0 +1,11 @@
+class,training_samples,test_samples,total_samples
+airplane,5000,1000,6000
+automobile,5000,1000,6000
+bird,5000,1000,6000
+cat,5000,1000,6000
+deer,5000,1000,6000
+dog,5000,1000,6000
+frog,5000,1000,6000
+horse,5000,1000,6000
+ship,5000,1000,6000
+truck,5000,1000,6000

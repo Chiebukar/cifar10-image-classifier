@@ -1,6 +1,10 @@
 torch
 torchvision
-numpy
+numpy<2
+pandas<3
+contourpy<1.4
+scipy<1.18
+certifi
 pandas
 matplotlib
 seaborn
