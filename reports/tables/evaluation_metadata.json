@@ -1,0 +1,12 @@
+{
+    "evaluation_dataset": "CIFAR-10 official test set",
+    "test_samples": 10000,
+    "number_of_classes": 10,
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "batch_size": 64,
+    "random_seed": 42,
+    "test_augmentation": false,
+    "models_evaluated": 4,
+    "evaluation_purpose": "Final independent test evaluation"
+}
