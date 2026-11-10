@@ -13,10 +13,10 @@ env/
 .ipynb_checkpoints/
 
 # Dataset files
-data/
+/data/
 
 # Model checkpoints and weights
-models/
+/models/
 *.pt
 *.pth
 *.onnx
