@@ -1,6 +1,3 @@
-cd /content/cifar10-image-classifier
-
-cat > src/evaluation/evaluate_test_set.py <<'PY'
 """
 Final evaluation of four CIFAR-10 classifiers on the official test set.
 
@@ -658,4 +655,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-PY
